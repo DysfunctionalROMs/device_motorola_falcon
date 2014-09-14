@@ -31,3 +31,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from msm8226-common
 $(call inherit-product, device/motorola/msm8226-common/msm8226.mk)
+
+
+# Build with Dalvik Runtime as default
+PRODUCT_RUNTIMES := runtime_libdvm_default 
