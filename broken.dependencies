@@ -17,7 +17,6 @@
         "target_path": "device/qcom/common",
         "branch": "cm-11.0"
     },
-
     {
         "remote": "gh",
         "repository": "Pinky-Inky-and-Clyde/proprietary_vendor_motorola",
