@@ -1,26 +1,26 @@
 [
     {
-        "remote": "gh",
+        "remote": "github",
         "repository": "robt77/android_device_motorola_msm8226-common",
         "target_path": "device/motorola/msm8226-common",
-        "branch": "cm-11.0"
+        "branch": "cm-12.0"
     },
     {
-        "remote": "gh",
+        "remote": "github",
         "repository": "robt77/android_kernel_motorola_msm8226",
         "target_path": "kernel/motorola/msm8226",
-        "branch": "kk"
+        "branch": "cm-12.0"
     },
     {
-        "remote": "gh",
+        "remote": "github",
         "repository": "CyanogenMod/android_device_qcom_common",
         "target_path": "device/qcom/common",
-        "branch": "cm-11.0"
+        "branch": "cm-12.0"
     },
     {
-        "remote": "gh",
-        "repository": "Pinky-Inky-and-Clyde/proprietary_vendor_motorola",
+        "remote": "github",
+        "repository": "TheLoonyBin/proprietary_vendor_motorola/proprietary_vendor_motorola",
         "target_path": "vendor/motorola",
-        "branch": "cm-11.0"
+        "branch": "lp5.0"
     }
 ]
