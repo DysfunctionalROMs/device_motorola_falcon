@@ -19,7 +19,7 @@
     },
     {
         "remote": "github",
-        "repository": "TheLoonyBin/proprietary_vendor_motorola/proprietary_vendor_motorola",
+        "repository": "TheLoonyBin/proprietary_vendor_motorola",
         "target_path": "vendor/motorola",
         "branch": "lp5.0"
     }
