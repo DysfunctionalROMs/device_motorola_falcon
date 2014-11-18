@@ -24,6 +24,7 @@
     "target_path": "kernel/motorola/msm8226"
   },
   {
+    "remote": "github",
     "repository": "TheMuppets/proprietary_vendor_motorola",
     "remote": "github",
     "branch": "cm-12.0",
