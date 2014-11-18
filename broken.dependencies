@@ -1,25 +1,25 @@
 [
 {
+    "remote": "github"
     "repository": "CyanogenMod/android_device_qcom_common",
     "target_path": "device/qcom/common"
     "branch": "cm-12.0",
-    "remote": "github"
   },
   {
+    "remote": "github"  
     "repository": "CyanogenMod/android_hardware_qcom_fm",
     "target_path": "hardware/qcom/fm"
     "branch": "cm-12.0",
-    "remote": "github"
   },
   {
+    "remote": "github"
     "repository": "CyanogenMod/android_device_qcom_sepolicy",
     "target_path": "device/qcom/sepolicy"
     "branch": "cm-12.0",
-    "remote": "github"
   },
   {
-    "repository": "Alberto97/android_kernel_motorola_msm8226",
     "remote": "github",
+    "repository": "Alberto97/android_kernel_motorola_msm8226",
     "branch": "lollipop-dev",
     "target_path": "kernel/motorola/msm8226"
   },
