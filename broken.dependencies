@@ -19,12 +19,6 @@
   },
   {
     "remote": "github",
-    "repository": "CyanogenMod/android_device_qcom_sepolicy",
-    "target_path": "device/qcom/sepolicy",
-    "branch": "cm-12.0"
-  },
-  {
-    "remote": "github",
     "repository": "CyanogenMod/android_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
     "branch": "cm-12.0"
