@@ -1,5 +1,9 @@
 $(call inherit-product, device/motorola/falcon/full_falcon.mk)
 
+# Boot animation
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1280
+
 # Inherit some common Broken stuff.
 $(call inherit-product, vendor/broken/config/common_full_phone.mk)
 
