@@ -19,7 +19,7 @@
   },
   {
     "remote": "github",
-    "repository": "konstat/proprietary_vendor_motorola",
+    "repository": "TheMuppets/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
     "branch": "cm-12.0"
   }
