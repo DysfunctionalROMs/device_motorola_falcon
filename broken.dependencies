@@ -13,7 +13,7 @@
   },
   {
     "remote": "github",
-    "repository": "konstat/android_kernel_motorola_msm8226",
+    "repository": "robt77/android_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
     "branch": "cm-12.0"
   },
