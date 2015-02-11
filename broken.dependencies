@@ -23,4 +23,9 @@
     "target_path": "vendor/motorola",
     "branch": "cm-12.0"
   }
+  {
+	"remote": "github",
+    "repository": "RobbieL811/Sabermod",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm-robt77",
+    "branch": "arm-eabi-4.8"
  ]
