@@ -24,8 +24,8 @@ TARGET_OTA_ASSERT_DEVICE := xt1031,xt1032,xt1033,xt1034,falcon_umts,falcon_umtsd
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
 TARGET_KERNEL_CONFIG := falcon_defconfig
-TARGET_GCC_VERSION_ARM := 4.7-linaro
-TARGET_GCC_VERSION_EXP := 4.7-sm
+TARGET_GCC_VERSION_ARM := 4.7-sm
+TARGET_GCC_VERSION_EXP := 4.7-linaro
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_falcon.c
