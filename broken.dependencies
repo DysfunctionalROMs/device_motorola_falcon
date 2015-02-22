@@ -20,7 +20,7 @@
     {
     "remote": "github",
     "repository": "Christopher83/arm-cortex_a7-linux-gnueabihf-linaro_4.9",
-    "target_path": "prebuilts/gcc/linux-86/arm/arm-eabi-arm-cortex_a7-linux-gnueabihf-linaro_4.9",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-arm-cortex_a7-linux-gnueabihf-linaro_4.9",
     "branch": "master"
   },
   {
