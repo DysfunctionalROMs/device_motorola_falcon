@@ -13,9 +13,9 @@
   },
   {
     "remote": "github",
-    "repository": "robt77/kernel-msm",
+    "repository": "robt77/android_kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
-    "branch": "lollipop—5.0.2-release"
+    "branch": "lollipop"
   },
     {
     "remote": "github",
