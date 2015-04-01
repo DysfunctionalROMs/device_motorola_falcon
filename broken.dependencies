@@ -27,7 +27,7 @@
     "remote": "github",
     "repository": "CyanogenMod/android_hardware_qcom_display",
     "target_path": "hardware/qcom/display-caf/msm8226",
-    "branch": "cm-12.1-caf-8226"
+    "branch": "cm-12.1"
   },
     {
     "remote": "github",
@@ -39,7 +39,7 @@
     "remote": "github",
     "repository": "CyanogenMod/android_hardware_qcom_media",
     "target_path": "hardware/qcom/media-caf/msm8226",
-    "branch": "cm-12.1-caf-8226"
+    "branch": "cm-12.1"
   },
     {
     "remote": "github",
