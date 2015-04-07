@@ -3,7 +3,7 @@
     "remote": "github",
     "repository": "CyanogenMod/android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "branch": "cm-12.1"
+    "branch": "staging/cm-12.1"
   },
   {
     "remote": "github",
