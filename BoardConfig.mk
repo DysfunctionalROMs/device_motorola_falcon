@@ -47,3 +47,6 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
+#TWRP
+DEVICE_RESOLUTION := 720x1280
+TW_IGNORE_MAJOR_AXIS_0 := true
