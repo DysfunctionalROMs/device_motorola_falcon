@@ -17,10 +17,12 @@
     "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-arm-cortex_a7-linux-gnueabihf-linaro_4.9",
     "branch": "master"
   },
+  {
     "remote": "github",
     "repository": "CyanogenMod/android_device_qcom_common",
     "target_path": "device/qcom/common",
 	"branch": "cm-12.1"
+  },
   {
     "remote": "github",
     "repository": "TheMuppets/proprietary_vendor_motorola",
