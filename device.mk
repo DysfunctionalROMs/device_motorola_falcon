@@ -27,11 +27,6 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom
-#Add art speed tweak
-PRODUCT_PROPERTY_OVERRIDES += \
-dalvik.vm.image-dex2oat-filter=everything \
-dalvik.vm.dex2oat-filter=everything
-
 
 # Wifi
 PRODUCT_COPY_FILES += \
