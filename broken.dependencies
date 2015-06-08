@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "robt77/android_kernel_motorola_msm8226",
+    "repository": "robt77/kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
     "branch": "lp5.1"
   },
