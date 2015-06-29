@@ -30,7 +30,7 @@ TARGET_KERNEL_CONFIG := falcon_defconfig
 KERNEL_TOOLCHAIN_PREFIX := arm-cortex_a7-linux-gnueabihf-
 KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-arm-cortex_a7-linux-gnueabihf-linaro_4.9/bin"
 TARGET_GCC_VERSION_AND := arm-cortex_a7-linux-gnueabihf-linaro_4.9
-
+BLOCK_BASED_OTA=true
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_falcon.c
