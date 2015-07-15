@@ -27,9 +27,8 @@ TARGET_BOARD_INFO_FILE := device/motorola/falcon/board-info.txt
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
 TARGET_KERNEL_CONFIG := falcon_defconfig
-KERNEL_TOOLCHAIN_PREFIX := sabermod-arm-linux-gnueabi-5.1
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/sabermod-arm-linux-gnueabi-5.1/bin"
-TARGET_GCC_VERSION_AND := sabermod-arm-linux-gnueabi-5.1
 BLOCK_BASED_OTA=true
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
