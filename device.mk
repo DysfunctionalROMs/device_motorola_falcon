@@ -30,7 +30,8 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.qcom
+    fstab.qcom \
+    init.target.rc
 
 # Wifi
 PRODUCT_COPY_FILES += \
