@@ -11,12 +11,6 @@
     "target_path": "kernel/motorola/msm8226",
     "branch": "lp5.1"
   },
-      {
-    "remote": "github",
-    "repository": "Christopher83/arm-cortex_a7-linux-gnueabihf-linaro_4.9",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-arm-cortex_a7-linux-gnueabihf-linaro_4.9",
-    "branch": "master"
-  },
   {
     "remote": "github",
     "repository": "TheMuppets/proprietary_vendor_motorola",
