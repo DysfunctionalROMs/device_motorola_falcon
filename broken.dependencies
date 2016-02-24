@@ -23,7 +23,13 @@
    "target_path": "external/stlport",
    "branch":      "cm-13.0"
   },
-  {
+    {
+   "remote":      "github",
+   "repository":  "Cyanogenmod/android_packages_apps_Snap",
+   "target_path": "packages/apps/Snap",
+   "branch":      "cm-13.0"
+  },
+    {
     "remote": "github",
     "repository": "TheMuppets/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
