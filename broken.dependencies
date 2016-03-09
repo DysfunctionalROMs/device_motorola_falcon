@@ -7,9 +7,9 @@
   },
   {
     "remote": "github",
-    "repository": "CyanogenMod/android_kernel_motorola_msm8226",
+    "repository": "robt77/kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
-    "branch": "cm-13.0"
+    "branch": "m6-testing"
   },
     {
     "remote": "github",
