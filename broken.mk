@@ -12,3 +12,7 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
+# Broken Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="Rob Thompson (robt77)"
