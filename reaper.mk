@@ -15,3 +15,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=falcon PRODUCT_NAME=falcon
 TARGET_VENDOR := Motorola
 
+#Reaper Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+DEVICE_MAINTAINERS="Rob Thompson (robt77)"
+
