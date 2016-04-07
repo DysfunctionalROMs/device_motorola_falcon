@@ -9,7 +9,7 @@
     "remote": "github",
     "repository": "robt77/kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
-    "branch": "m6-testing"
+    "branch": "m6.0.1"
   },
     {
     "remote": "github",
