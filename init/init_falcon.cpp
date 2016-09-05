@@ -61,7 +61,7 @@ static enum supported_carrier detect_sprint_mvno(void)
 static enum supported_carrier detect_carrier(void)
 {
     std::string carrier = property_get("ro.boot.carrier");
-    if (ISMATCH(carrier.c_str(), "vzw")) {
+    if (carrier != "vzw") {
         return VERIZON;
     } else if (access("/pds/public/usc", F_OK) != -1) {
         return USC;
