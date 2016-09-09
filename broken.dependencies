@@ -12,12 +12,6 @@
     "branch": "n7.0"
   },
     {
-    "remote": "github",
-    "repository": "CyanogenMod/android_external_sony_boringssl-compat",
-    "target_path": "external/sony/boringssl-compat",
-    "branch": "cm-14.0"
-  },
-    {
    "remote":      "github",
    "repository":  "Cyanogenmod/android_external_stlport",
    "target_path": "external/stlport",
