@@ -8,10 +8,12 @@ TARGET_SCREEN_HEIGHT := 1280
 $(call inherit-product, vendor/broken/config/common_full_phone.mk)
 PRODUCT_DEVICE := falcon
 PRODUCT_NAME := broken_falcon
-PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto g
+PRODUCT_BRAND := Motorola
+PRODUCT_MODEL := Moto G
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=falcon PRODUCT_NAME=falcon
+TARGET_VENDOR := Motorola
 
 # Broken Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
