@@ -3,24 +3,24 @@
     "remote": "github",
     "repository": "robt77/android_device_motorola_msm8226-common",
     "target_path": "device/motorola/msm8226-common",
-    "branch": "n7.0"
+    "branch": "n7.1"
   },
   {
     "remote": "github",
     "repository": "robt77/kernel_motorola_msm8226",
     "target_path": "kernel/motorola/msm8226",
-    "branch": "n7.0"
+    "branch": "n7.1"
   },
     {
    "remote":      "github",
    "repository":  "Cyanogenmod/android_external_stlport",
    "target_path": "external/stlport",
-   "branch":      "cm-14.0"
+   "branch":      "cm-14.1"
   }, 
     {
     "remote": "github",
     "repository": "TheMuppets/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
-    "branch": "cm-14.0"
+    "branch": "cm-14.1"
   }
  ]
