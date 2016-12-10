@@ -11,6 +11,12 @@
     "target_path": "kernel/motorola/msm8226",
     "branch": "n7.1"
   },
+  {
+    "remote": "github",
+    "repository": "CyanogenMod/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "cm-14.1"
+  }, 
     {
    "remote":      "github",
    "repository":  "Cyanogenmod/android_external_stlport",
