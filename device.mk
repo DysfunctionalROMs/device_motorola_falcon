@@ -32,6 +32,11 @@ PRODUCT_PACKAGES += \
 # CMActions
 PRODUCT_PACKAGES += \
     CMActions
+
+# Sensors
+PRODUCT_PACKAGES += \
+    akmd8963
+
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
