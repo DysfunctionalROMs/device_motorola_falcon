@@ -37,6 +37,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CMActions
 
+# Sensors
+PRODUCT_PACKAGES += \
+    akmd8963
+
 # CDMA APN list
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/apns-conf-cdma.xml:system/etc/apns-conf-cdma.xml
