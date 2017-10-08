@@ -25,25 +25,22 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio_platform_info.xml:system/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/configs/mixer_paths.xml:system/etc/mixer_paths.xml
 
+# CMActions
+#PRODUCT_PACKAGES += \
+#    CMActions
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.target.rc
-
-# Wifi
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-
-# CMActions
-PRODUCT_PACKAGES += \
-    CMActions
 
 # Sensors
 PRODUCT_PACKAGES += \
     akmd8963
 
-# CDMA APN list
+# Wifi
+
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/apns-conf-cdma.xml:system/etc/apns-conf-cdma.xml
+    $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 # Inherit from msm8226-common
 $(call inherit-product, device/motorola/msm8226-common/msm8226.mk)

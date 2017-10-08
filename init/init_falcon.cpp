@@ -34,10 +34,11 @@
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
 
+#include <android-base/properties.h>
 #include "vendor_init.h"
 #include "property_service.h"
-#include "log.h"
-#include "util.h"
+
+using android::base::GetProperty;
 
 void property_override(char const prop[], char const value[])
 {
@@ -52,17 +53,14 @@ void property_override(char const prop[], char const value[])
 
 void vendor_load_properties()
 {
-    int rc;
-
-    std::string platform = property_get("ro.board.platform");
+    std::string platform = GetProperty("ro.board.platform", "");
     if (platform != ANDROID_TARGET)
         return;
 
     property_override("ro.product.model", "Moto G");
 
-    std::string radio = property_get("ro.boot.radio");
+    std::string radio = GetProperty("ro.boot.radio", "");
 
-    property_set("ro.product.model", "Moto G");
     if (radio == "0x1") {
         if (access("/dev/block/platform/msm_sdcc.1/by-name/metadata", F_OK) != -1) {
             /* xt1032 GPE */
@@ -84,7 +82,8 @@ void vendor_load_properties()
             property_set("persist.radio.multisim.config", "");
         }
     } else if (radio == "0x3") {
-        std::string carrier = property_get("ro.boot.carrier");
+		
+        std::string carrier = GetProperty("ro.boot.carrier", "");
         if (carrier == "vzw") {
             property_override("ro.build.description", "falcon_verizon-user 5.1 LPB23.13-33.7 7 release-keys");
             property_override("ro.build.fingerprint", "motorola/falcon_verizon/falcon_cdma:5.1/LPB23.13-33.7/7:user/release-keys");
@@ -104,7 +103,8 @@ void vendor_load_properties()
             property_set("ro.com.google.clientidbase.ms", "android-boost-us");
             property_set("ro.com.google.clientidbase.am", "android-boost-us");
             property_set("ro.com.google.clientidbase.yt", "android-boost-us");
-        } else if (carrier == "usc") {
+
+        } else {
             property_override("ro.build.description", "falcon_usc-user 5.1 LPB23.13-33.6 8 release-keys");
             property_override("ro.build.fingerprint", "motorola/falcon_usc/falcon_cdma:5.1/LPB23.13-33.6/8:user/release-keys");
             property_set("ro.mot.build.customerid", "usc");
@@ -116,8 +116,6 @@ void vendor_load_properties()
             property_set("ro.com.google.clientidbase", "android-motorola");
             property_set("ro.com.google.clientidbase.gmm", "android-motorola");
             property_set("ro.com.google.clientidbase.yt", "android-motorola");
-        } else {
-            ERROR("Unknown mobile carrier");
         }
         property_override("ro.product.device", "falcon_cdma");
         property_override("ro.build.product", "falcon_cdma");
@@ -147,7 +145,7 @@ void vendor_load_properties()
         property_override("ro.build.product", "falcon_umtsds");
         property_set("ro.mot.build.customerid", "RETBR");
         property_set("ro.telephony.default_network", "0,1");
-        property_set("ro.telephony.ril.config", "simactivation");
+        property_set("ro.telephony.ril.config", "simactivation,sim2gsmonly");
         property_set("persist.radio.multisim.config", "dsds");
         property_set("persist.radio.dont_use_dsd", "true");
         property_set("persist.radio.plmn_name_cmp", "1");
@@ -161,7 +159,5 @@ void vendor_load_properties()
         property_set("ro.telephony.default_network", "0");
         property_set("persist.radio.multisim.config", "");
     }
-
-    std::string device = property_get("ro.product.device");
-    INFO("Found radio id: %s, setting build properties for %s device\n", radio.c_str(), device.c_str());
 }
+
