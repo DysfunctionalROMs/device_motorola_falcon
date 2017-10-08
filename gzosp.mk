@@ -5,9 +5,9 @@ TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1280
 
 # Inherit some common Broken stuff.
-$(call inherit-product, vendor/reaper/config/common_full_phone.mk)
+$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
 PRODUCT_DEVICE := falcon
-PRODUCT_NAME := reaper_falcon
+PRODUCT_NAME := gzosp_falcon
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto G
 PRODUCT_MANUFACTURER := motorola
