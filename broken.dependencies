@@ -25,7 +25,7 @@
   },    
     {
     "remote": "github",
-    "repository": "Unofficial-Moto/android_vendor_motorola",
+    "repository": "Unofficial-Moto/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
     "branch": "lineage-15.0"
   }
